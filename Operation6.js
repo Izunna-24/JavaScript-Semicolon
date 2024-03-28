@@ -21,3 +21,14 @@ const calc = (x) => {
 };
 
 console.log(calc(3)(2));
+
+function higherOrderFunction(func){
+    console.log("higher function")
+    func();
+}
+
+function lowerOrderFunction(){
+    console.log("lower funtion");
+}
+
+higherOrderFunction(lowerOrderFunction);
