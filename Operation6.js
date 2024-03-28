@@ -24,11 +24,19 @@ console.log(calc(3)(2));
 
 function higherOrderFunction(func){
     console.log("higher function")
-    func();
+    //lowerFunction();
 }
 
-function lowerOrderFunction(){
+ higherOrderFunction(()=>{
     console.log("lower funtion");
-}
+});
 
-higherOrderFunction(lowerOrderFunction);
+//callback funtion: passing a funtion as an argument into another funtion
+
+function greetings(greet){
+    return function person(name){
+        return `Hello, ${name} ${greet}`;
+
+    }
+}
+console.log(greetings("Good morining!")("John"));
