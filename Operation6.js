@@ -13,11 +13,11 @@
 // console.log(result(2));
 // console.log(calc(3)(2));
 
-const calc = function(x){
+const calc = (x) => {
     function secondNumber(a){
         return a * x;
     }
     return secondNumber;
-}
+};
 
 console.log(calc(3)(2));
