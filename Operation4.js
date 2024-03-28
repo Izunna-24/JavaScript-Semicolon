@@ -15,4 +15,4 @@ console.log(update);
 // ans.name = "Person";
 // ans.author = "Angel";
 
-// console.log(ans);
+// console.log
