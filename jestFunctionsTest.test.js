@@ -5,7 +5,7 @@ let a = 3;// arrange
 let b = 5;// arrange
 let answer = addNumbers(a,b);//act,when
 
-expect(answer).toBe(8);//assert
+expect(answer).toBe(8);//assert (toBe is used for all premitives in js)
 })
 
 test("filter even numbbers", () =>{
