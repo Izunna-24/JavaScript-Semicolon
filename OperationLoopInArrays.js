@@ -20,6 +20,8 @@
 // }
 
 let array = [1,3,4,5,6];
+//you can filter and map at the same time
+let answer = array.filter(num => num % 2 == 0).map(num => num *10)
 
 let arr = []
 
@@ -30,5 +32,6 @@ let arr = []
 
 //Map means going through the array element each to alter their states
 //let answer = array.map((num)=> num % 2 == 1)
-let answer = array.map((num)=> num  * 2)
+//let answer = array.map((num)=> num  * 2)
+//
 console.log(answer)
