@@ -1,4 +1,4 @@
-let {addNumbers, evenNumbers, assignGrade } = require("./jestFunctions.js")//require is used to assign a file to a variable
+let {addNumbers, evenNumbers} = require("./jestFunctions.js")//require is used to assign a file to a variable
 
 test("Add two numbers",() =>{  // test takes in description, call back function, the test body: arrange = given, act = when,assert
 let a = 3;// arrange
