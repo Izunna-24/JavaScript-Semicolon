@@ -73,3 +73,6 @@ for (const index in new_array){
         }
     }
                 console.log("sum of population is",total)
+
+
+                

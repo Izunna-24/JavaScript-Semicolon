@@ -2,10 +2,6 @@
 // for (const index in numbers){
 //     if(numbers[index] % 2 == 0){}
 
-
-
-
-
 function getHCF(num1, num2) {
     while (num2 !== 0) {
         const temp = num2;
@@ -27,9 +23,10 @@ function calculateHCF(numbers) {
 
 
 
-let numbers = [8, 16, 8];
-//let numbers = [,9, 12];
+//let numbers = [8, 16, 8];
+let numbers = [3 ,9, 12];
 var hcf = calculateHCF(numbers);
+//var hcf = getHCF(numbers)
 
 console.log("HCF = " + hcf);
 
